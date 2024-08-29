@@ -115,6 +115,36 @@ button[type="submit"] {
     font-weight: bold;
 }
 
+button[type="submit"]:hover {
+    background-color: #4f613f
+    ;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+.matchPasswordError {
+    font-size: 10px;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input:valid + .matchPasswordError {
+    display: none;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
 .whatToDoContainer a{
     text-decoration: none;
     color: #596D48;
@@ -128,7 +158,5 @@ button[type="submit"] {
 }
 
 /* To do
-    style submission
-    style validation 
     odin font
     shadow*/
