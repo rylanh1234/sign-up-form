@@ -134,7 +134,7 @@ button[type="submit"]:hover {
 }
 
 input {
-    border: 1px solid black;
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
 }
 
@@ -157,6 +157,7 @@ input:valid + .matchPasswordError {
 input:focus {
     border-color: blue;
     outline: none;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
 }
 
 .whatToDoContainer {
